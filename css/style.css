@@ -1,0 +1,63 @@
+/* --- Style Sheet --- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 180px;
+	background-color: #F04E23;
+}
+.logo {
+	width: 243px;
+	height: 151px;
+	margin-top: 15px;
+	float: right;
+}
+#main {
+	width: 100%;
+	height: 1700px;
+	margin-top: 50px;
+}
+#map {
+	width: 90%;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #333333;
+}
+.font-family {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 2.5em;
+	color: #333333;
+}
+.float-right {
+	float: right;
+}
+form {
+	margin: 50px;
+}
+.FormGroup {
+	padding: 10px;
+}
+input {
+	padding: 1.25em;
+	border: solid 1px #C8C8C8;
+	border-radius: 5px;
+}
+.italic {
+	font-style: italic;
+}
+.button {
+	color: white;
+	background-color: #F04E23;
+	border : solid 1px #C8C8C8;
+	border-radius: 5px;
+}
+#SubmitButton {
+	width: 100px;
+	height: 15px;
+	font-family: arial;
+	font-size: 1.5em;
+}
