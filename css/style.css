@@ -32,6 +32,9 @@ header {
 	font-size: 2.5em;
 	color: #333333;
 }
+.italic {
+	font-style: italic;
+}
 .float-right {
 	float: right;
 }
@@ -46,8 +49,8 @@ input {
 	border: solid 1px #C8C8C8;
 	border-radius: 5px;
 }
-.italic {
-	font-style: italic;
+.check-box {
+	margin-right: 20px;
 }
 .button {
 	color: white;
@@ -55,9 +58,8 @@ input {
 	border : solid 1px #C8C8C8;
 	border-radius: 5px;
 }
-#SubmitButton {
+select {
 	width: 100px;
-	height: 15px;
-	font-family: arial;
-	font-size: 1.5em;
+	height: 50px;
+	float: right;
 }

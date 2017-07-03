@@ -23,9 +23,13 @@
 				<!-- Number of people Traveling -->
 				<div class="FormGroup">
 					<label for="NumberOfPeople" class="font-family">Number of people traveling</label>
-					<input type="number" min="1" max="6" name="NumberOfPeople" class="float-right">
-					<select>
-						<option></option>
+					<select name="number">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
 					</select>
 				</div>
 				<!-- Starting Point -->
@@ -40,15 +44,15 @@
 				</div>
 				<!-- Submit Button -->
 				<div class="FormGroup">
-					<input type="submit" name="Submit" id="SubmitButton" class="button submit">
+					<button class="button">Choose Trip</button>
 				</div>
 				<!-- Transport Options Avaliable -->
 				<div class="FormGroup">
-					<label for="TransportOptionsAvaliable" class="font-family">Transport Options Avaliable</label>
-					<input type="checkbox" name="TransportOptionsAvaliable" value="Motorbike" class="font-family">Motorbike<br>
-					<input type="checkbox" name="TransportOptionsAvaliable" value="SmallCar" class="font-family">Small Car<br>
-					<input type="checkbox" name="TransportOptionsAvaliable" value="LargeCar" class="font-family">Large Car<br>
-					<input type="checkbox" name="TransportOptionsAvaliable" value="MotorHome" class="font-family">Motor Home<br>
+					<label for="TransportOptionsAvaliable" class="font-family">Transport Options Avaliable</label><br>
+					<input type="checkbox" name="TransportOptionsAvaliable" value="Motorbike" class="check-box">Motorbike<br>
+					<input type="checkbox" name="TransportOptionsAvaliable" value="SmallCar" class="check-box">Small Car<br>
+					<input type="checkbox" name="TransportOptionsAvaliable" value="LargeCar" class="check-box">Large Car<br>
+					<input type="checkbox" name="TransportOptionsAvaliable" value="MotorHome" class="check-box">Motor Home<br>
 				</div>
 				<!-- Transport Costs Heading -->
 				<div class="FormGroup">
